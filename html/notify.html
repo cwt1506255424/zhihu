@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <title>了解知乎</title>
+    <link href="../css/public.css" rel="stylesheet" type="text/css">
+    <link href="../css/notify.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+    <div id="header_box">
+        <i class="iconfont search">&#xe62c;</i>
+        <input type="text" placeholder="《权力的游戏》S07E02" />
+    </div>
+    <i class="iconfont"><a href="notify.html"><img src="../images/market1.png"/></a></i>
+</header>
+<video id="video" src="../video/Trailer.mp4" webkit-playsinline="true" x-webkit-airplay="true"  type="video/mp4" preload="none" x5-video-player-type="h5" x5-video-player-fullscreen="true"  controls="" poster="../images/banner.png"></video>
+
+<footer>
+    <a href="../index.html"><i class="iconfont">&#xe60c;</i><span>首页</span></a>
+    <a href="discovery.html"><i class="iconfont">&#xe503;</i><span>发现</span></a>
+    <a href="market.html"><i class="iconfont">&#xe62d;</i><span>市场</span></a>
+    <a href="notify.html" class="act"><i class="iconfont">&#xe6c6;</i><span>通知</span></a>
+    <a href="more.html"><i class="iconfont">&#xe6e4;</i><span>更多</span></a>
+</footer>
+</body>
+</html>
+<script src="../js/common.js"></script>
+<script>
+    (function(){
+        video.width = document.documentElement.clientWidth;
+        //video.play();
+        var vdplay = document.querySelector("#video");
+        vdplay.addEventListener("touchstart",function(){
+            if(video.paused){
+                video.play();
+            }else{
+                video.pause();
+            }
+        })
+    })()
+
+</script>
