@@ -1,0 +1,65 @@
+/* CSS Document */
+body, html {
+  height: 100%; }
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  section .close {
+    font: 0.15rem/0.4rem "";
+    color: #c5c5da;
+    padding-left: 0.225rem; }
+  section .logo {
+    height: 0.5rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.63rem; }
+    section .logo img {
+      width: 1.12rem; }
+  section input {
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+    font: 0.16rem/0.45rem "";
+    color: #d8d8d8;
+    margin: 0 0.2rem; }
+  section input[type="button"] {
+    background: #7fc1ff;
+    color: #fff;
+    border: none;
+    border-radius: 0.04rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem; }
+  section a {
+    font-size: 0.15rem;
+    color: #7a7a7a;
+    text-align: center; }
+
+footer {
+  width: 100%;
+  position: fixed;
+  top: 85%; }
+  footer .social {
+    display: flex;
+    margin: 0 0.2rem;
+    font: 0.14rem/0.66rem "";
+    color: #7a7a7a;
+    justify-content: space-between; }
+    footer .social .line {
+      width: 30%;
+      border-bottom: 1px solid #d3d3d3;
+      height: 0.005rem;
+      margin-top: 0.3rem; }
+    footer .social a {
+      font: 0.14rem/0.66rem "";
+      color: #7a7a7a; }
+  footer #third {
+    width: 100%;
+    text-align: center;
+    display: none; }
+    footer #third .first {
+      width: 0.2rem;
+      height: 0.2rem;
+      display: inline-block; }
+
+/*# sourceMappingURL=login.css.map */
